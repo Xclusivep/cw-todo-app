@@ -3,9 +3,9 @@ variable "prefix" {
 }
 
 variable "ssh_key_name" {
-  default = "demoKP"
+  default = "demoKP.pem"
 }
 
 variable "ssh_private_key_path" {
-  default = "~/Documents/DevOps/AWS/"
+  default = "~/udenyi/cw-todo-app/jenkins-server"
 }
